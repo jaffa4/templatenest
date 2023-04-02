@@ -1,0 +1,26 @@
+{
+	"name": "templatenest",
+	"version": "0.0.1",
+	"author": "John Doe",
+	"license": "MIT",	
+	
+
+	"configurations": [
+		{
+			"name": "release",
+			"targetType": "executable",
+			"platforms": ["windows"],
+			"mainSourceFile": "templatenest/app.d",
+			"sourceFiles": ["templatenest/nest.d"]
+			
+		},
+		{
+			"name": "library",
+			"targetType": "library",
+			"platforms": ["windows"],
+			"sourceFiles": ["templatenest/nest.d"]
+			
+		}
+	]
+	
+} 
